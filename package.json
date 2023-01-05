@@ -1,13 +1,16 @@
 {
-  "name": "simple-crud-api",
+  "name": "my-webpack-project",
   "version": "1.0.0",
-  "description": "my first simple crud api",
+  "description": "My webpack project",
   "type": "module",
   "module": "es6",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon",
-    "build": "tsc && node dist/index.js"
+    "build": "webpack --mode=production --node-env=production && node dist/index.js",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -23,11 +26,15 @@
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
+    "@webpack-cli/generators": "^3.0.1",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.1",
+    "ts-loader": "^9.4.2",
     "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
