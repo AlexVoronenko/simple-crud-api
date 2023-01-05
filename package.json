@@ -1,0 +1,29 @@
+{
+  "name": "simple-crud-api",
+  "version": "1.0.0",
+  "description": "my first simple crud api",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVoronenko/simple-crud-api.git"
+  },
+  "author": "Alexander Voronenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexVoronenko/simple-crud-api/issues"
+  },
+  "homepage": "https://github.com/AlexVoronenko/simple-crud-api#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
