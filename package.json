@@ -6,11 +6,9 @@
   "module": "es6",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon",
-    "build": "webpack --mode=production --node-env=production && node dist/index.js",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch"
+    "start:dev": "npx nodemon",
+    "start:prod": "webpack --mode=production --node-env=production && node dist/index.js",
+    "build": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",
