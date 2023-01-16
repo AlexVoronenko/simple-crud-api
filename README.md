@@ -37,5 +37,7 @@ Task: https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/c
 
 ## API - REQUESTS
 
-| Method | URL | Body | Response |
-| -----: | --- | :--: | :------- |
+|                    Method | URL                               | Body | Response                        |
+| ------------------------: | --------------------------------- | :--: | :------------------------------ |
+|                   **GET** | `http://localhost:5000/api/users` |      | `status 200` and an empty array |
+| Errors on the server side |                                   |      | `status 500`                    |

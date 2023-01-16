@@ -1,3 +1,9 @@
+
+# Defailt github ignore file with some modifications
+
+# ENV
+.env
+
 # Logs
 logs
 *.log
